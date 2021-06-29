@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Sen', sans-serif;
+   font-size: 16px;
+   background-color: #F4ECF7;
+   margin: 0;
+}
+
+.nav-top{
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    box-shadow: 5px 5px 10px gray;
+    z-index: 5;
+}
+
+.nav-top img{
+    width: 37%;
+    float: left;
+    margin-left: 20px;
+}
+
+.nav-top a{
+    padding: 8px 8px 20px 8px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #4A235A;
+    float: right;
+    margin-right: 10px;
+    margin-top: 22px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-top a:hover{
+    color: #FF2C1C;
+    transform: scale(1.2);
+}
+
+.card-about {
+    padding: 30px;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 13px 24px 27px grey;
+    border-radius: 10px;
+    text-align: left;
+    margin: auto;
+}
+
+.beginning-about{
+    margin-top: 120px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-about{
+    float: left;
+    width: 50%;
+}
+
+.right-about{
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.clg-card{
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+    margin-left: 250px;
+}
+
+.left-about-clg-logo{
+    float: left;
+    width: 30%;
+    padding-right: 0;
+}
+
+.right-about-clg-name{
+    float: right;
+    width: 70%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.5;
+}
+
+.project-card{
+    padding: 20px;
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.project-details{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.beginning-home{
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: 0px 14px 18px gray;
+    background-color: gray;
+}
+
+.beginning-home img{
+    width: 100%;
+}
+
+.top-left-home {
+  position: absolute;
+  top: 140px;
+  left: 60px;
+  font-size: 20px;
+}
+
+.get-started-btn{
+    padding: 20px 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #7D3C98;
+    border-radius: 70px;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.get-started-btn:hover{
+    background-color: #CB4335;
+}
+
+.get-started-btn img{
+    width: 48px;
+}
+
+.card-home {
+    padding: 30px;
+    padding-top: 50px;
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 0px 14px 18px gray;
+}
+
+.left-home{
+    float: left;
+    width: 50%;
+}
+
+.right-home{
+    float: right;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.left-home-abstract{
+    float: left;
+    width: 70%;
+    padding-right: 10px;
+}
+
+.right-home-abstract{
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.right-home-attrs{
+    width: 31%;
+    margin: 7px;
+    margin-top: 30px;
+    float: left;
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+  padding-left: 1px; 
+  text-indent: -5px;
+  font-size: 20px;
+}
+
+li::before {
+  content: "• ";
+  color: #8E44AD;
+  font-size: 30px;
+}
+
+.li-poses{
+    font-size: 16px;
+}
+
+.li-poses::before {
+  content: "• ";
+  color: #8E44AD;
+  font-size: 20px;
+}
+
+hr{
+    width: 10%;
+    float: left;
+    margin-top: 0;
+    border: 1px solid #4A235A;
+    height: 2px;
+    background-color: #4A235A;
+}
+
+.beginning-poses{
+    width: 100%;
+    margin-top: 90px;
+    padding: 20px;
+}
+
+.pose-card{
+    width: 98%;
+    background-color: white;
+    box-shadow: 6px 23px 26px grey;
+    padding: 20px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.pose-card-left{
+    float: left;
+    width: 70%;
+}
+
+.pose-card-right{
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.pose-card-right img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.practice-now-btn{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    background-color: #7D3C98;
+    border-radius: 20px;
+    margin-left: 39px;
+}
+
+.practice-now-btn:hover{
+    background-color: #CB4335;
+}
+
+.workout-card{
+    float: left;
+    background-color: white;
+    padding: 20px;
+    width: 19%;
+    margin: 7px;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 10px 20px 19px gray;
+    transition: 0.3s;
+}
+
+.workout-card a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.workout-card:hover{
+    transform: scale(1.1);
+}
+
+.workout-start-btn{
+    margin-left: 665px;
+    padding: 7px 27px;
+    background-color: #7D3C98;
+    text-decoration:none;
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.workout-start-btn:hover {
+    background-color:#CB4335;
+    transform: scale(1.1);
+}
+
+.canvas-heading {
+    position: absolute;
+    top: 103px;
+    left: 20px;
+}
+
+.canvas-card {
+    position: absolute;
+    top: 200px;
+    right: 70px;
+    left: 742px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 13px 10px 15px #AEB6BF;
+    font-size: 20px;
+    border: 4px solid black;
+}
+
+.canvas-card-pose {
+    position: absolute;
+    top: 200px;
+    right: 70px;
+    left: 742px;
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 0px;
+    box-shadow: 13px 10px 15px #AEB6BF;
+    font-size: 20px;
+    border: 4px solid black;
+}
+
+.left-pose{
+    float: left;
+    width: 60%;
+    padding-bottom: 0px;
+}
+
+.left-pose img{
+    width: 100%;
+}
+
+.right-pose{
+    float: right;
+    width: 40%;
+    padding-left: 10px;
+}
+
+.right-pose p{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+#instr{
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px -1px 0 #000;
+}
+
+.instr-card{
+    padding: 30px;
+	text-align: center;
+	background-color: white;
+	margin-top: 3%;
+	color: #F1C40F;
+	font-size: 13px;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	left: 10px;
+	box-shadow: 13px 10px 15px #AEB6BF;
+	border: 4px solid black;
+}
+
+.footer {
+	padding: 30px;
+	text-align: center;
+	background-color: #252525;
+	margin-top: 3%;
+	color: #F1C40F;
+	font-size: 13px;
+}

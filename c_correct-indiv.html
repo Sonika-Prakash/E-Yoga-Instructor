@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    
+    <title>Chair Pose</title>
+    <link rel="icon" href="images/logo.png" type="images/png" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="#">
+    
+    <link rel="stylesheet" href="css/style.css"></link>
+
+</head>
+
+<body>
+
+<div class="nav-top">
+    <img src="images/nav-logo-new.png">
+    
+    <a href="about.html">ABOUT</a>
+    <a href="workout.html">PRACTICE NOW</a>
+    <a href="poses.html">POSES WE OFFER</a>
+    <a href="home.html">HOME</a>
+
+</div>
+
+<div class="canvas-heading">
+    <h1 style="margin-bottom: 10px;">Utkatasana <span style="color: #E74C3C;">(Chair Pose)</span></h1>
+    <hr style="width: 50%;">
+    </br></br></br>
+</div>
+
+<div class="canvas-card-pose">
+    <div class="row">
+        <div class="left-pose">
+            <img src="images/c-keypoints.png">
+        </div>
+        <div class="right-pose">
+            <u><p style="font-size: 24px;">Steps:</p></u>
+            <p>- Bend your knees as if you are about to sit on a chair.</p>
+            <p>- Do the namaste gesture.</p>
+        </div>
+    </div>
+</div>
+
+<div class="instr-card">
+    <div id="instr"></div>
+</div>
+
+<script src="data/chair.json"></script>
+<script src="js/c_correction-indiv.js"></script>
+
+</body>
+
+</html>
