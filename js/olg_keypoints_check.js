@@ -127,7 +127,7 @@ function correct() {
             msg.text = '';
         }
         
-        if(ankleRY < 430.0)
+        if(ankleRY > 475.0 || ankleRY < 430.0)
         {
             instr2 = "Align the ankle keypoints to the line.";
             itext.innerHTML = instr2;
