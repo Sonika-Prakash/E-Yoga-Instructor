@@ -149,7 +149,7 @@ function correct() {
             itext.innerHTML = '<span style="color: #18EB1D;">All set! Starting the practice...</span>';
             
             setTimeout(function(){
-            window.location.href="./c_correct-indiv.html";
+            window.location.href="./s_correct-indiv.html";
         }, 5000);
        }
        
